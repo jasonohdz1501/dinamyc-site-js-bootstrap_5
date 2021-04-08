@@ -512,6 +512,13 @@ $breadcrumb-divider: quote(">");
 
 .container-form .wrap {
   height: 100vh;
+  
+}
+
+@media screen and(max-width:767px) {
+  .container-form .img-contact {
+    display: none;
+  }
 }
 
 .container-form .text-contact-form {
