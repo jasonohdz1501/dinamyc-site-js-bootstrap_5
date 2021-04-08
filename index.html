@@ -21,7 +21,7 @@
   <meta name="twitter:description" content="Example of Javascript and Bootstrap 5 build ecommerce static website">
   <!--Custom css-->
   <link rel="stylesheet" href="custom.css">
-  <title>Ecommerce demo example</title>
+  <title>Eccomer demo store</title>
 </head>
 <body>
 <!-- Star Header Area --> 
@@ -223,107 +223,127 @@
     </div>
   
   </div>
-</main>
-  <!--Custom Scripts-->
-  <script src="/script.js"></script>
-  <!--Script de Bootstrap-->
-  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-  
-  
-</body>
+</main> 
 
 <!-- Footer -->
-<footer class="footer">
-  <div class="container-fluid">
-    <div class="footer-space">
-      
+  <footer class="footer">
+    <div class="container-fluid">
+      <div class="footer-space">
+        
+      </div>
     </div>
-  </div>
-  <div class="container-fluid footer-container">
-    <div class="row">
-      <div class="col-12 col-md-9">
-        <div class="row">
-          <div class="col-12 col-sm-8">
-            <div class="row">
-              <div class="col-12 col-sm-6">
-                <ul class="list-unstyled list"><h4>Servicio al cliente</h4>
-                  <li>Tarifas de envío</li>
-                  <li>Devoluciones</li>
-                  <li>Tarjetas de regalo</li>
-                  <li>Tallas</li>
-                  <li>Servicio al cliente</li>
-                  <li>Envíanos un email</li>
-                </ul>
-              </div>
-              <div class="col-12 col-sm-6">
-                <ul class="list-unstyled list"><h4>Acerca de nosotros</h4>
-                  <li>Nuestra historia</li>
-                  <li>Cómo operamos</li>
-                  <li>Compromiso con el medio ambiente</li>
-                  <li>Ofertas especiales del día</li>
-                  <li>Blog</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-sm-4">
-              <form>
-                <div class="mb-4">
-                  <label for="email-field" class="form-label"><h4>¡No te pierdas nada!</h4></label>
-                  <div class="input-group mb-2 box-form">
-                    <input type="text" class="form-control" placeholder="Digita tu email" aria-label="email" aria-describedby="button-addon2">
-                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">></button>
-                  </div>
-                  <div id="emailHelp" class="form-text">No compartimos tu información con nadie</div>
+    <div class="container-fluid footer-container">
+      <div class="row">
+        <div class="col-12 col-md-9">
+          <div class="row">
+            <div class="col-12 col-sm-8">
+              <div class="row">
+                <div class="col-12 col-sm-6">
+                  <ul class="list-unstyled list"><h4>Servicio al cliente</h4>
+                    <li>Tarifas de envío</li>
+                    <li>Devoluciones</li>
+                    <li>Tarjetas de regalo</li>
+                    <li>Tallas</li>
+                    <li>Servicio al cliente</li>
+                    <li>Envíanos un email</li>
+                  </ul>
                 </div>
-              </form>
+                <div class="col-12 col-sm-6">
+                  <ul class="list-unstyled list"><h4>Acerca de nosotros</h4>
+                    <li>Nuestra historia</li>
+                    <li>Cómo operamos</li>
+                    <li>Compromiso con el medio ambiente</li>
+                    <li>Ofertas especiales del día</li>
+                    <li>Blog</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4">
+                <form class = "form-offer">
+                  <div class="mb-4">
+                    <h4>¡No te pierdas nada!</h4>
+                    <div class="input-group mb-2 box-form">
+                      <input type="text" class="form-control" placeholder="Digita tu email" aria-label="email" aria-describedby="button-email" id="emailOffer">
+                      <button class="btn btn-outline-secondary" type="button" id="button-email">></button>
+                    </div>
+                    <span id="message_error"></span>
+                    <span id="message_success"></span>
+                    <div id="emailHelp" class="form-text">No compartimos tu información con nadie</div>
+                  </div>
+                </form>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-12 col-md-3">
-        <div class="row">
-          <div class="col-12">
-            <div class="icons">
-              <ul class="footer-social-networks">
-                <li class="footer-social-networks-item"><a href="https://www.facebook.com/mrwonderbaby" target="blank">Facebook</a></li>
-                <li class="footer-social-networks-item"><a href="https://www.instagram.com/mrwonderbaby" target="blank">Instagram</a></li>
-                <li class="footer-social-networks-item"><a href="https://wa.me/5731826526822" target="blank">WhatsApp</a></li>
-              </ul>
-            </div>
+        <div class="col-12 col-md-3">
+          <div class="row">
             <div class="col-12">
-              <dl class="footer-shipping">
-                <dt class="footer-shipping-label">Enviar a:</dt>
-                <dd class="footer-shipping-description">
-                  <span class="footer-shipping-country">
-                    <img src="/img/colombia.svg" alt="" height="20px"  width="20px"> Bogotá
-                  </span>
-                  <button class="btn btn-link">Cambiar</button>
-                </dd>
-              </dl>
+              <div class="icons">
+                <ul class="footer-social-networks">
+                  <li class="footer-social-networks-item"><a href="https://www.facebook.com/mrwonderbaby" target="blank">Facebook</a></li>
+                  <li class="footer-social-networks-item"><a href="https://www.instagram.com/mrwonderbaby" target="blank">Instagram</a></li>
+                  <li class="footer-social-networks-item"><a href="https://wa.me/5731826526822" target="blank">WhatsApp</a></li>
+                </ul>
+              </div>
+              <div class="col-12">
+                <dl class="footer-shipping">
+                  <dt class="footer-shipping-label">Enviar a:</dt>
+                  <dd class="footer-shipping-description">
+                    <span class="footer-shipping-country">
+                      <img src="/img/colombia.svg" alt="" height="20px"  width="20px"> Bogotá
+                    </span>
+                    <button class="btn btn-link">Cambiar</button>
+                  </dd>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="footer-copyright">
+            <div class="footer-content-asset">
+              <div class="footer-copyright-info">
+            © 2021
+            Mr. Wonder Baby,Todos los derechos reservados.
+              </div>
+              <div>
+                <ul class="footer-links">
+                  <li>Mapa del sitio</li>
+                  <li>Términos y condiciones</li>
+                  <li>Política de datos</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-12">
-        <div class="footer-copyright">
-          <div class="footer-content-asset">
-            <div class="footer-copyright-info">
-          © 2021
-          Mr. Wonder Baby,Todos los derechos reservados.
+    <div class="container-fluid popup-window">
+      <div class="content-asset popup-content" id="new-popup">
+        <span class="close">&times;</span>
+        <div class="card mb-1" style="max-width: 540px;">
+          <div class="row g-1">
+            <div class="col-md-12">
+              <img src="/img/logo largo.png" width="200px"alt="...">
             </div>
-            <div>
-              <ul class="footer-links">
-                <li>Mapa del sitio</li>
-                <li>Términos y condiciones</li>
-                <li>Política de datos</li>
-              </ul>
+            <div class="col-md-12">
+              <div class="card-body">
+                <h5 class="card-title">Te has suscrito correctamente</h5>
+                <p class="card-text">Verifica tu correo electrónico para obtener más información.</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</footer>
+  </footer>
+<!--Script de Bootstrap-->
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<!-- JQuery -->
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<!--Custom Scripts-->
+<script src="script.js"></script> 
+</body>
 </html>
