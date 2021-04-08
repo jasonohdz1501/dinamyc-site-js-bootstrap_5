@@ -44,7 +44,7 @@
 }
 
 .breadcrumb {
-  background-color: none;
+  background-color: transparent;
 }
 
 /* General parameters */
@@ -158,11 +158,6 @@
   }
 }
 /* Main content */
-.img-contact {
-  float: right;
-  height: 250px;
-}
-
 .title-promotion {
   text-align: center;
   margin-top: 2rem;
@@ -424,6 +419,49 @@
   }
 }
 /* End Footer */
+/* Contact Form */
+.container-form {
+  background: url("data:image/svg+xml;charset=utf8,%3csvg xmlns%3D%22http://www.w3.org/2000/svg%22 viewBox%3D%220 0 940 320%22%3e%3cpath fill%3D%22%23ff5e5b%22 fill-opacity%3D%221.5%22 d%3D%22M0,128L34.3,149.3C68.6,171,137,213,206,213.3C274.3,213,343,171,411,170.7C480,171,549,213,617,192C685.7,171,754,85,823,96C891.4,107,960,213,1029,224C1097.1,235,1166,149,1234,101.3C1302.9,53,1371,43,1406,37.3L1440,32L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z%22%3e%3c/path%3e%3c/svg%3e") no-repeat;
+}
+
+.container-form .wrap {
+  height: 100vh;
+}
+
+.container-form .text-contact-form {
+  margin-bottom: 20px;
+}
+
+.position-absolute {
+  height: 400px;
+  width: 1200px;
+  display: inline-block;
+}
+
+.container-asset {
+  padding: 20px;
+}
+
+.container-form .img-contact {
+  border-radius: 50%;
+  width: 500px;
+  height: auto;
+}
+
+.container-form .btn-form-contact {
+  background: #ff5e5b;
+  border: none;
+  border-radius: 10em;
+}
+
+.container-form .btn-form-contact:hover {
+  background: #2EC4B6;
+}
+
+.container-form .form-control {
+  border-radius: 7em;
+}
+
 /*!
  * Bootstrap v5.0.0-beta2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
