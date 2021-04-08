@@ -43,6 +43,10 @@
   color: #2EC4B6;
 }
 
+.breadcrumb {
+  background-color: none;
+}
+
 /* General parameters */
 * {
   margin: 0;
